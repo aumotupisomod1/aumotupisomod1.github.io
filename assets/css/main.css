@@ -1,0 +1,231 @@
+
+/* 冷知识科普网站主样式 */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'PingFang SC', 'Arial', sans-serif;
+  background: linear-gradient(135deg, #e0f7fa 0%, #fffde4 100%);
+  color: #222;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+nav {
+  background: #00bcd4;
+  color: #fff;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.10);
+  font-weight: 600;
+  font-size: 1.15rem;
+  z-index: 100;
+}
+
+nav .logo {
+  font-family: 'Fredoka One', 'Segoe UI', 'Arial', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  cursor: default;
+  color: #fff;
+  text-shadow: 1px 2px 8px #00bcd4;
+}
+
+nav .nav-lang-container {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 22px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 14px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-weight: 600;
+  font-size: 1.08rem;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  background-color: #0097a7;
+  color: #ffe082;
+  outline: none;
+}
+
+#langSelect {
+  background-color: #00bcd4;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 7px;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 7px 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  outline: none;
+}
+
+#langSelect:hover,
+#langSelect:focus {
+  background-color: #0097a7;
+  border-color: #ffe082;
+  color: #ffe082;
+}
+
+.container {
+  max-width: 900px;
+  margin: 55px auto 80px;
+  padding: 0 28px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 28px;
+  color: #0097a7;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Fredoka One', 'Segoe UI', 'Arial', sans-serif;
+}
+
+.search-box {
+  max-width: 480px;
+  margin: 0 auto 38px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 13px 20px;
+  font-size: 1.15rem;
+  border: 2px solid #00bcd4;
+  border-radius: 30px;
+  box-shadow: 0 2px 8px rgba(0,188,212,0.08);
+  transition: border-color 0.3s ease;
+  outline-offset: 2px;
+  background: #fff;
+}
+
+.search-box input:focus {
+  border-color: #0097a7;
+  box-shadow: 0 0 10px #00bcd4;
+}
+
+ul.fact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 750px;
+}
+
+ul.fact-list li {
+  background: linear-gradient(90deg, #fffde4 0%, #e0f7fa 100%);
+  padding: 28px 38px;
+  margin-bottom: 22px;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(0,188,212,0.10);
+  font-size: 1.22rem;
+  position: relative;
+  line-height: 1.7;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-left: 8px solid #00bcd4;
+  border-right: 8px solid #ffe082;
+  font-family: 'Segoe UI', 'PingFang SC', 'Arial', sans-serif;
+}
+
+ul.fact-list li:hover {
+  transform: scale(1.03);
+  box-shadow: 0 16px 32px rgba(0,188,212,0.18);
+  border-left: 8px solid #0097a7;
+  border-right: 8px solid #ffd54f;
+}
+
+footer {
+  text-align: center;
+  padding: 22px 12px;
+  font-size: 1rem;
+  color: #0097a7;
+  border-top: 2px solid #00bcd4;
+  margin-top: 90px;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  background: linear-gradient(90deg, #e0f7fa 0%, #fffde4 100%);
+}
+
+.btn {
+  display: inline-block;
+  padding: 11px 22px;
+  text-decoration: none;
+  border-radius: 7px;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  font-family: inherit;
+}
+
+.btn-primary {
+  background: #00bcd4;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #0097a7;
+  color: #ffe082;
+  transform: scale(1.07);
+}
+
+.btn-secondary {
+  background: #ffe082;
+  color: #0097a7;
+}
+
+.btn-secondary:hover {
+  background: #ffd54f;
+  color: #00bcd4;
+  transform: scale(1.07);
+}
+
+.btn-success {
+  background: #4caf50;
+  color: white;
+}
+
+.btn-success:hover {
+  background: #388e3c;
+  color: #ffe082;
+  transform: scale(1.07);
+}
+
+.page {
+  min-height: 60vh;
+}
+
+@media (max-width: 600px) {
+  nav .nav-lang-container {
+    gap: 16px;
+  }
+  ul.fact-list li {
+    font-size: 1.05rem;
+    padding: 16px 14px;
+    border-radius: 12px;
+  }
+  .search-box {
+    max-width: 98%;
+  }
+}

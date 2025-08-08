@@ -1,0 +1,101 @@
+{
+  "en": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "sponsors": "Sponsors",
+      "language_label": "Select language"
+    },
+    "home": {
+      "welcome_title": "Welcome to Fun Facts Encyclopedia",
+      "search_placeholder": "Search fun facts...",
+      "no_facts_found": "No facts found."
+    },
+    "about": {
+      "title": "About This Website",
+      "p1": "This site collects and shares interesting, surprising, and fun facts from around the world.",
+      "p2": "It is hosted on GitHub Pages and designed to be clean and simple, making science and trivia accessible to everyone.",
+      "p3": "Created by you :)"
+    },
+    "sponsors": {
+      "title": "Our Sponsors",
+      "intro": "We are grateful to our sponsors who help keep this website running and free for everyone.",
+      "visit_btn": "Visit Sponsor",
+      "coming_soon": "Coming Soon",
+      "coming_soon_desc": "Professional advertising solutions for modern websites. Coming soon...",
+      "popcash": {
+        "title": "PopCash - Premium Advertising Network",
+        "desc": "PopCash is a leading advertising network that helps websites monetize their traffic while providing relevant ads to users."
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Fun Facts Encyclopedia. All rights reserved. Enjoy learning something new every day!"
+    }
+  },
+  "zh": {
+    "nav": {
+      "home": "首页",
+      "about": "关于",
+      "sponsors": "赞助商",
+      "language_label": "选择语言"
+    },
+    "home": {
+      "welcome_title": "欢迎来到冷知识百科",
+      "search_placeholder": "搜索冷知识...",
+      "no_facts_found": "未找到相关冷知识。"
+    },
+    "about": {
+      "title": "关于本站",
+      "p1": "本站收集和分享世界各地有趣、惊奇、冷门的知识。",
+      "p2": "托管于 GitHub Pages，设计简洁美观，让科普和趣味知识触手可及。",
+      "p3": "由你创建 :)"
+    },
+    "sponsors": {
+      "title": "我们的赞助商",
+      "intro": "我们感谢帮助维持网站运行并让所有人免费使用的赞助商。",
+      "visit_btn": "访问赞助商",
+      "coming_soon": "即将推出",
+      "coming_soon_desc": "面向现代网站的专业广告解决方案。即将推出...",
+      "popcash": {
+        "title": "PopCash - 优质广告网络",
+        "desc": "PopCash 是领先的广告网络，帮助网站将流量变现，同时为用户提供相关广告。"
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 冷知识百科. 保留所有权利。每天学点新知识！"
+    }
+  },
+  "es": {
+    "nav": {
+      "home": "Inicio",
+      "about": "Acerca de",
+      "sponsors": "Patrocinadores",
+      "language_label": "Seleccionar idioma"
+    },
+    "home": {
+      "welcome_title": "Bienvenido a la Enciclopedia de Datos Curiosos",
+      "search_placeholder": "Buscar datos curiosos...",
+      "no_facts_found": "No se encontraron datos curiosos."
+    },
+    "about": {
+      "title": "Acerca de este sitio",
+      "p1": "Este sitio recopila y comparte datos curiosos, sorprendentes y divertidos de todo el mundo.",
+      "p2": "Está alojado en GitHub Pages y diseñado para ser limpio y sencillo, acercando la ciencia y la trivia a todos.",
+      "p3": "Creado por ti :)"
+    },
+    "sponsors": {
+      "title": "Nuestros Patrocinadores",
+      "intro": "Agradecemos a nuestros patrocinadores que ayudan a mantener este sitio web funcionando y gratuito para todos.",
+      "visit_btn": "Visitar Patrocinador",
+      "coming_soon": "Próximamente",
+      "coming_soon_desc": "Soluciones publicitarias profesionales para sitios web modernos. Próximamente...",
+      "popcash": {
+        "title": "PopCash - Red de Publicidad Premium",
+        "desc": "PopCash es una red publicitaria líder que ayuda a los sitios web a monetizar su tráfico mientras proporciona anuncios relevantes a los usuarios."
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Enciclopedia de Datos Curiosos. Todos los derechos reservados. ¡Aprende algo nuevo cada día!"
+    }
+  }
+}

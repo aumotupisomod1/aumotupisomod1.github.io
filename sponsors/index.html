@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="ppck-ver" content="c7d3571b44b98203c85441eb51ad3b5f" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sponsors - Famous Quotes</title>
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <style>
+    .sponsors-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .sponsor-card {
+      background: #fff;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 25px;
+      margin: 20px 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    
+    .sponsor-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+    
+    .sponsor-logo {
+      font-size: 1.8em;
+      font-weight: bold;
+      color: #4CAF50;
+      margin-bottom: 15px;
+      font-family: 'Georgia', serif;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+    
+    .sponsor-title {
+      font-size: 1.4em;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    
+    .sponsor-description {
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    
+    .sponsor-actions {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    
+    .btn {
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: all 0.2s ease;
+      cursor: pointer;
+      border: none;
+      display: inline-block;
+    }
+    
+    .btn-primary {
+      background: #007bff;
+      color: white;
+    }
+    
+    .btn-primary:hover {
+      background: #0056b3;
+      transform: scale(1.05);
+    }
+    
+    .btn-secondary {
+      background: #6c757d;
+      color: white;
+    }
+    
+    .btn-secondary:hover {
+      background: #545b62;
+      transform: scale(1.05);
+    }
+    
+    .sponsors-intro {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #666;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+<!-- 公共头部 -->
+<div class="header-container">
+  <!-- 头部内容将通过JavaScript动态加载 -->
+</div>
+
+<div class="container">
+  <div class="sponsors-container">
+    <h1 data-i18n="sponsors.title">Our Sponsors</h1>
+    <p class="sponsors-intro" data-i18n="sponsors.intro">We are grateful to our sponsors who help keep this website running and free for everyone.</p>
+    
+    <div class="sponsor-card">
+      <div class="sponsor-logo">PopCash</div>
+      <p class="sponsor-description" data-i18n="sponsors.popcash.desc">PopCash is a leading advertising network that helps websites monetize their traffic while providing relevant ads to users.</p>
+      <div class="sponsor-actions">
+        <a href="popcash.html" class="btn btn-primary" data-i18n="sponsors.visit_btn">Visit Sponsor</a>
+      </div>
+    </div>
+    
+    <!-- 可以添加更多赞助商 -->
+    <div class="sponsor-card" style="opacity: 0.6;">
+      <div class="sponsor-logo" style="color: #ff6b6b;" data-i18n="sponsors.coming_soon">Coming Soon</div>
+      <p class="sponsor-description" data-i18n="sponsors.coming_soon_desc">Professional advertising solutions for modern websites. Coming soon...</p>
+      <div class="sponsor-actions">
+        <span class="btn btn-primary" style="opacity: 0.5; cursor: not-allowed;" data-i18n="sponsors.coming_soon">Coming Soon</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 公共页脚 -->
+<div class="footer-container">
+  <!-- 页脚内容将通过JavaScript动态加载 -->
+</div>
+
+<!-- JavaScript文件 -->
+<script src="../assets/js/sponsors.js"></script>
+</body>
+</html>
