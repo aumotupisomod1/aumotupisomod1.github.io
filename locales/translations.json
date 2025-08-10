@@ -27,9 +27,9 @@
         "title": "PopCash - Premium Advertising Network",
         "desc": "PopCash is a leading advertising network that helps websites monetize their traffic while providing relevant ads to users."
       },
-      "udlinks": {
-        "title": "udlinks",
-        "desc": "A URL shortener, also known as a link shortener, seems like a simple tool, but it is a service that can have a dramatic impact on your earning efforts. By sharing the links you can earn money."
+      "blank": {
+        "title": "blank",
+        "desc": ""
       }
     },
     "footer": {
@@ -64,9 +64,9 @@
         "title": "PopCash - 优质广告网络",
         "desc": "PopCash 是领先的广告网络，帮助网站将流量变现，同时为用户提供相关广告。"
       },
-      "udlinks": {
-        "title": "udlinks",
-        "desc": "短链接（URL shortener）看似简单，却能极大提升你的收益。分享链接即可赚取收入。"
+      "blank": {
+        "title": "空白",
+        "desc": ""
       }
     },
     "footer": {
@@ -101,9 +101,9 @@
         "title": "PopCash - Red de Publicidad Premium",
         "desc": "PopCash es una red publicitaria líder que ayuda a los sitios web a monetizar su tráfico mientras proporciona anuncios relevantes a los usuarios."
       },
-      "udlinks": {
-        "title": "udlinks",
-        "desc": "Un acortador de URL, también conocido como acortador de enlaces, parece una herramienta simple, pero puede tener un gran impacto en tus esfuerzos de ingresos. Compartiendo los enlaces puedes ganar dinero."
+      "blank": {
+        "title": "blank",
+        "desc": ""
       }
     },
     "footer": {
